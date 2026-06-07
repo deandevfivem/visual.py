@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NSWAS Dashboard</title>
+    <style>
+        body {
+            background: #0a1a2f;
+            color: white;
+            font-family: Arial;
+            padding: 40px;
+        }
+        .card {
+            background: #11263f;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #4aa3ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚑 NSWAS Dashboard</h1>
+    <p>Welcome, {{ user.username }}!</p>
+
+    <div class="card">
+        <h2>📄 LOA Panel</h2>
+        <p>Pending LOAs, Approvals, Denials</p>
+    </div>
+
+    <div class="card">
+        <h2>📊 Activity Panel</h2>
+        <p>Active checks, auto-close, attendance</p>
+    </div>
+
+    <div class="card">
+        <h2>🚨 Deployment Panel</h2>
+        <p>Deployment logs and vote history</p>
+    </div>
+
+</body>
+</html>
